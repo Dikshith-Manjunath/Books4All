@@ -122,6 +122,14 @@ h1, .h1 {
     font-size: 2.5rem;
   }
 }
+.aboutimage{
+  image-rendering: crisp-edges;
+  border-radius: 35px;
+}
+.aboutuspara{
+  font-size: 1.6rem;
+  text-align:justify ;
+}
 /* Container styles */
 .Buttons {
   display: flex;
@@ -135,29 +143,32 @@ button {
   padding: 10px 20px; /* Padding inside the button */
   font-size: 16px; /* Font size of the button text */
   border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 35px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+button:hover {
+  opacity: 75%;
 }
 
 /* BuyButton specific styles */
 .BuyButton {
-  background-color: #4CAF50; /* Green background */
+  background-color: #1abc9c; /* Green background */
   color: white; /* White text */
 }
 
 .BuyButton:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #1abc9c; /* Darker green on hover */
 }
 
 /* SellButton specific styles */
 .SellButton {
-  background-color: #f44336; /* Red background */
+  background-color: #1abc9c; /* Red background */
   color: white; /* White text */
 }
 
 .SellButton:hover {
-  background-color: #da190b; /* Darker red on hover */
+  background-color: #1abc9c; /* Darker red on hover */
 }
 
 h2, .h2 {
