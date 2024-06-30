@@ -126,6 +126,9 @@ h1, .h1 {
   image-rendering: crisp-edges;
   border-radius: 35px;
 }
+.aboutimage:hover{
+ transform: scale(1.005);
+}
 .aboutuspara{
   font-size: 1.6rem;
   text-align:justify ;
